@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 33, 44);
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h1 {
+  color: rgb(255, 240, 28);
+}
+
+.image-wrapper {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 3px rgb(255, 240, 28);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.image--scale {
+  transform: scale(1.5);
+}
+
+.image--position {
+  object-position: 50% 10%;
+}

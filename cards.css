@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 33, 44);
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.card {
+  width: 400px;
+  height: 350px;
+  border: solid 3px rgb(237, 245, 255);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  width: 100%;
+  text-align: center;
+  color: rgb(237, 245, 255);
+  background-color: rgba(25, 33, 44, 0.2);
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 55px;
+}
+
+.card--ceramic {
+  background-image: url(https://images.unsplash.com/photo-1554042861-0ad2fc2a8dc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+}
+
+.card--terracotta {
+  background-image: url(https://images.unsplash.com/photo-1552740844-4f8a8206c68d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80);
+}
+
+.card--wood {
+  background-image: url(https://images.unsplash.com/photo-1558649332-07f21970d309?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80);
+}
+
+.image {
+  width: 100%;
+}
+
+/* main {
+  background-image: url(https://images.unsplash.com/photo-1573639764262-70a0f7436de2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3264&q=80);
+  background-size: cover;
+} */
+
+/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQoU2NkIBIwEqmOYeQo/PUp4j8b3wqwhwn6GqaYoEKQaSDFAD0MC076Z1pwAAAAAElFTkSuQmCC);
+  background-repeat: repeat; */
